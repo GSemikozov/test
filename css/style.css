@@ -1,0 +1,32 @@
+.load {
+    display: none;
+}
+.first {
+    width: 100%;
+    background: orange;
+    height: 600px;
+    margin-bottom: 25px;
+}
+.second {
+    width: 100%;
+    background: blue;
+    height: 600px;
+    margin-bottom: 25px;
+}
+.third {
+    width: 100%;
+    background: orangered;
+    height: 600px;
+    margin-bottom: 100px;
+}
+@font-face {
+    font-family: Mustang;
+    src: url('../fonts/Mustang.otf') format("opentype");
+}
+
+.header {
+    font-family: Mustang, sans-serif;
+    font-size: 140px;
+    text-align: center;
+    line-height: 3em;
+}

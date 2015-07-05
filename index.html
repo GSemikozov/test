@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Avaleht</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  </head>
+  <body>
+
+    <!-- Content -->
+    <div class="container load">
+      <div class="row">
+        <div class="col-md-12 clearfix">
+          <img src="images/logo_2x.png" class="logo pull-left" id="zero" alt="">
+          <img src="images/logo_demo.png" class="logo pull-right" id="zero1" alt="">
+        </div>
+      </div>
+    </div>
+    <h1 class="header load">Lifestyle</h1>
+    <article class="container load">
+      <div class="row">
+        <div class="col-md-12 first" id="first"
+             data-0="background-color:rgb(0,0,255);transform:rotate(1.4deg);"
+             data-500="background-color:rgb(255,0,0);transform:rotate(0deg);"></div>
+        <div class="col-md-12 second" id="second"
+             data-500="background-color:rgb(0,0,255);transform:rotate(-1.4deg);"
+             data-1000="background-color:rgb(255,0,0);transform:rotate(0deg);"></div>
+        <div class="col-md-12 second" id="third"
+             data-1000="background-color:rgb(0,0,255);transform:rotate(1.4deg);"
+             data-1500="background-color:rgb(255,0,0);transform:rotate(0deg);"></div>
+      </div>
+
+    </article>
+
+    <script src="js/skrollr.min.js"></script>
+    <script>
+      var s = skrollr.init();
+    </script>
+    <script src="js/lifestyle.js"></script>
+  </body>
+</html>                                   
